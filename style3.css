@@ -1,0 +1,64 @@
+@font-face{
+    font-family: 'Nunito-Light';
+    src: url(fonts/Nunito-Light.ttf);
+}
+
+@font-face{
+    font-family: 'Nunito-SemiBold';
+    src: url(fonts/Nunito-SemiBold.ttf);
+}
+
+*{
+    font-family: 'Nunito-Light' !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nunito-SemiBold' !important;
+}
+
+.my-bg-gray{
+    background-color: #ECECEC !important;
+}
+.my-bg-darkblue{
+    background-color: #6CA1D0  !important;
+}
+
+.my-bg-yellow{
+    background: #EED2661A !important;
+}
+
+.my-bg-blue{
+    background: rgba(157, 203, 240, 0.22) !important;
+}
+
+.my-bg-green{
+    background: rgba(126, 237, 162, 0.1) !important;
+}
+
+.my-border-blue{
+    border-right: #9DCBF0 1px solid !important;
+}
+
+.my-border-yellow{
+    border-right: 1px solid rgba(238, 210, 102, 0.7) !important;
+}
+
+a.text-black.text-decoration-none:hover{
+    text-decoration: underline !important;
+}
+
+.custom-dropdown::after {
+    content: url(img/chevron-down.svg); /* Стрелочка */
+    width: 24px;
+    height: 24px;
+    font-size: 18px;
+    margin-left: 5px;
+    vertical-align: middle;
+    border: none !important;
+}
+
+@media(min-width:992px){
+    .border-lg-end{
+        border-right: #9DCBF0 1px solid !important;
+    }
+}
